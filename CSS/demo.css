@@ -1,16 +1,29 @@
-h1{
-    color: green;
+h2{
+    font-weight: bold;
 }
-p{
-    color: red;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    text-decoration: none;/* underLine Line -through overLine */
+h3{
+    font-weight: bold;
+}
+span{
+    color: aliceblue;
+    background-color: red;
+}
+body{
+    text-align:justify;
+    width: 650px;
+    margin: 0px auto ;
+    margin: auto ;
+}
+h4{
     text-align: center;
-    text-transform: lowercase;
-    font-style: italic;
-    background-color: aqua;
-    width: 1000px;
 }
+h5{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #0bcece;
+}
+
+
+
