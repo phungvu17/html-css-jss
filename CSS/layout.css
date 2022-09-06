@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.35;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+
+.Restaurant{
+    float: left;
+    width: 12%;
+}
+.burgers{
+    float: left;
+    width: 10%;
+}
+.pizza{
+    float: left;
+    width: 10%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.35;
+}
+.conternor{
+    width: 1200px;
+    float: none;
+    margin: 0 auto;
+
+}
+.restaurant{
+    float: left;
+    width: 12%;
+    line-height: 35px;
+}
+.burgers{
+    float: left;
+    width: 10%;
+    line-height: 35px;
+}
+.pizza{
+    float: left;
+    width: 10%;
+    line-height: 35px;
+}
+.telephon{
+    float: right;
+    width: 38%;
+    line-height: 35px;
+}
+.damnhat{
+    font-weight: 900;
+}
+.header{
+    background-color: #fafafa;
+    height: 40px;
+    border-bottom: 3px solid #e3d8d8;
+}
+.food{
+    float: left;
+    width: 10%;
+    line-height: 50px;
+}
+.conternor ul{
+    list-style: none;
+
+}
+ul li{
+    float: right;
+    line-height: 50px;
+    padding: 0 15px;
+    color: black;
+    font-weight: 900;
+}
+.anh{
+    width: calc(35% - 30px) ;
+    box-sizing: content-box;
+    border: 1px solid #e3d8d8 ;
+    margin: 10px 15px ;
+    /*padding: 50px 15px;*/
+    float: left;
+    background-color: #fafafa;
+    box-shadow: 5px 5px 5px silver;
+
+}
+.navigation{
+    background-color: #fafafa ;
+    height: 40px;
+    /*border: 1px solid red;*/
+}
+.lich{
+    line-height: 50px;
+    float: left;
+}
+.tinnhan{
+    float: right;
+    line-height: 50px;
+}
+h3{
+    line-height: 30px;
+    color: #e7460e;
+}
+.noidung{
+    padding: 10px 10px;
+}
+.main{
+    background-color: #e3d8d8;
+    height: 1000px;
+    border-top : 3px solid #e3d8d8;
+}
+img{
+    max-width: 100%;
+    float: right;
+}
