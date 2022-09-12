@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=DM+Sans&family=Libre+Baskerville&family=Roboto&display=swap');
+body{
+    width: 486px;
+    height: 588px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    box-shadow: 0 0 1px;
+}
+.text{
+    height: 70px;
+    width: 486px;
+    background-color: #00FA9A;
+
+}
+h1{
+    color: #fff;
+    line-height: 70px;
+    padding: 0 50px;
+}
+span{
+    color: red;
+}
+
+input[name=Firstname]{
+    padding: 12px;
+    width: 161px;
+}
+input[name=Lastname]{
+    padding: 12px;
+    margin: 0 6px;
+    width: 161px;
+}
+input[name=Email]{
+    padding: 12px;
+    width: 362px;
+}
+input[name=Phone]{
+    padding: 12px;
+    width: 362px;
+}
+
+button{
+    padding: 12px;
+    width: 102px;
+}
+
+nav{
+    margin: 0 auto;
+    line-height: 58px;
+    padding: 25px 45px;
+    font-weight: 500;
+}
