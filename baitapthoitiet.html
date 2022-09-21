@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baitapthoitiet</title>
+</head>
+
+</style>
+<body>
+
+<div class="main">
+  <div class="h">
+    <h1>Dự báo thời tiết</h1>
+    <h2 id="city">Thành phố</h2>
+    <h3><span id="nhietdo">Nhiệt độ</span><sup>0</sup></h3>
+    <h4>Áp suất:<span id="apsuat"></span></h4>
+  </div>
+  <h5>Vui lòng chọn địa điểm:</h5>
+  <div class="nut">
+    <button type="button" onclick="hanoi()">Hà Nội</button>
+    <button type="button" onclick="hcm()">TP HCM</button>
+    <button type="button" onclick="tokyo()">Tokyo</button>
+    <button type="button" onclick="bangkok()">Bangkok</button>
+    <button type="button" onclick="london()">London</button>
+    <button type="button" onclick="beijing()">Beijing</button>
+    <button type="button" onclick="alaska()">Alaska</button>
+    <button type="button" onclick="newyork()">New York</button>
+    <button type="button" onclick="berlin()">Berlin</button>
+  </div>
+</div>
+<script type="text/javascript">
+  function hanoi(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onload = function (){
+      //noi lay data ve
+      var data = JSON.parse(this.responseText);
+      var ct = data.name;
+      var h1city = document.getElementById("city");
+      h1city.innerText = ct;
+
+      var tmp = data.main.temp;
+      var nhietdo = document.getElementById("nhietdo");
+      nhietdo.innerText = tmp;
+
+      var pes = data.main.pressure;
+      var apsuat = document.getElementById("apsuat");
+      apsuat.innerText = pes;
+    }
+    var url ="https://api.openweathermap.org/data/2.5/weather?q=hanoi&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
+    xhttp.open("get",url,true);
+    xhttp.send();
+  }
+
+  function hcm(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onload = function (){
+      var data = JSON.parse(this.responseText);
+      var ct = data.name;
+      var h1city = document.getElementById("city");
+      h1city.innerText = ct;
+
+      var tmp = data.main.temp;
+      var nhietdo = document.getElementById("nhietdo");
+      nhietdo.innerText = tmp;
+
+      var pes = data.main.pressure;
+      var apsuat = document.getElementById("apsuat");
+      apsuat.innerText = pes;
+    }
+    var url ="https://api.openweathermap.org/data/2.5/weather?q=saigon&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
+    xhttp.open("get",url,true);
+    xhttp.send();
+  }
+
+  function tokyo(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onload = function (){
+      var data = JSON.parse(this.responseText);
+      var ct = data.name;
+      var h1city = document.getElementById("city");
+      h1city.innerText = ct;
+
+      var tmp = data.main.temp;
+      var nhietdo = document.getElementById("nhietdo");
+      nhietdo.innerText = tmp;
+
+      var pes = data.main.pressure;
+      var apsuat = document.getElementById("apsuat");
+      apsuat.innerText = pes;
+    }
+    var url ="https://api.openweathermap.org/data/2.5/weather?q=tokyo&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
+    xhttp.open("get",url,true);
+    xhttp.send();
+  }
+
+  function bangkok(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onload = function (){
+      var data = JSON.parse(this.responseText);
+      var ct = data.name;
+      var h1city = document.getElementById("city");
+      h1city.innerText = ct;
+
+      var tmp = data.main.temp;
+      var nhietdo = document.getElementById("nhietdo");
+      nhietdo.innerText = tmp;
+
+      var pes = data.main.pressure;
+      var apsuat = document.getElementById("apsuat");
+      apsuat.innerText = pes;
+    }
+    var url ="https://api.openweathermap.org/data/2.5/weather?q=bangkok&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
+    xhttp.open("get",url,true);
+    xhttp.send();
+  }
+
+  function london(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onload = function (){
+      var data = JSON.parse(this.responseText);
+      var ct = data.name;
+      var h1city = document.getElementById("city");
+      h1city.innerText = ct;
+
+      var tmp = data.main.temp;
+      var nhietdo = document.getElementById("nhietdo");
+      nhietdo.innerText = tmp;
+
+      var pes = data.main.pressure;
+      var apsuat = document.getElementById("apsuat");
+      apsuat.innerText = pes;
+    }
+    var url ="https://api.openweathermap.org/data/2.5/weather?q=london&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
+    xhttp.open("get",url,true);
+    xhttp.send();
+  }
+
+  function beijing(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onload = function (){
+      var data = JSON.parse(this.responseText);
+      var ct = data.name;
+      var h1city = document.getElementById("city");
+      h1city.innerText = ct;
+
+      var tmp = data.main.temp;
+      var nhietdo = document.getElementById("nhietdo");
+      nhietdo.innerText = tmp;
+
+      var pes = data.main.pressure;
+      var apsuat = document.getElementById("apsuat");
+      apsuat.innerText = pes;
+    }
+    var url ="https://api.openweathermap.org/data/2.5/weather?q=beijing&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
+    xhttp.open("get",url,true);
+    xhttp.send();
+  }
+
+  function alaska(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onload = function (){
+      var data = JSON.parse(this.responseText);
+      var ct = data.name;
+      var h1city = document.getElementById("city");
+      h1city.innerText = ct;
+
+      var tmp = data.main.temp;
+      var nhietdo = document.getElementById("nhietdo");
+      nhietdo.innerText = tmp;
+
+      var pes = data.main.pressure;
+      var apsuat = document.getElementById("apsuat");
+      apsuat.innerText = pes;
+    }
+    var url ="https://api.openweathermap.org/data/2.5/weather?q=alaska&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
+    xhttp.open("get",url,true);
+    xhttp.send();
+  }
+  function newyork(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onload = function (){
+      var data = JSON.parse(this.responseText);
+      var ct = data.name;
+      var h1city = document.getElementById("city");
+      h1city.innerText = ct;
+
+      var tmp = data.main.temp;
+      var nhietdo = document.getElementById("nhietdo");
+      nhietdo.innerText = tmp;
+
+      var pes = data.main.pressure;
+      var apsuat = document.getElementById("apsuat");
+      apsuat.innerText = pes;
+    }
+    var url ="https://api.openweathermap.org/data/2.5/weather?q=new york&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
+    xhttp.open("get",url,true);
+    xhttp.send();
+  }
+
+  function berlin(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onload = function (){
+      var data = JSON.parse(this.responseText);
+      var ct = data.name;
+      var h1city = document.getElementById("city");
+      h1city.innerText = ct;
+
+      var tmp = data.main.temp;
+      var nhietdo = document.getElementById("nhietdo");
+      nhietdo.innerText = tmp;
+
+      var pes = data.main.pressure;
+      var apsuat = document.getElementById("apsuat");
+      apsuat.innerText = pes;
+    }
+    var url ="https://api.openweathermap.org/data/2.5/weather?q=berlin&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
+    xhttp.open("get",url,true);
+    xhttp.send();
+  }
+
+
+</script>
+</body>
+</html>
