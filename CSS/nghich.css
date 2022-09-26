@@ -1,0 +1,38 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-body:hover{
+    /*background-color: #ffffff;*/
+    transform: scale(1.03);
+}
+.card-text {
+    float: left;
+    margin: 0 0px;
+}
+img{
+
+    max-width: 100%;
+
+}
+.card-body{
+    /*background-color: #b6b6b6;*/
+    border-radius: 7px;
+}
+body{
+    background: radial-gradient(circle, rgb(88, 190, 174) 0%, rgb(102, 79, 229) 100%);
+    font-family: 'Roboto', sans-serif ;
+
+
+    font-weight: 400;
+    line-height: 1.35;
+}
+.card-title{
+    position: absolute;
+    margin: 20px 0px;
+}
+.dubao{
+    position: absolute;
+    margin: 40px 0;
+}
