@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=DM+Sans&family=Libre+Baskerville&family=Roboto&display=swap');
+body{
+    width: 486px;
+    height: 588px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    box-shadow: 0 0 1px;
+    padding: 20px 50px  ;
+    box-sizing: content-box;
+    border: 1px solid green;
+
+}
+.text{
+    height: 70px;
+    width: 486px;
+    background-color: #00FA9A;
+
+}
+.box-green{
+    margin: 15px 25px;
+    padding: 15px 25px;
+
+}
+
+
+
+
